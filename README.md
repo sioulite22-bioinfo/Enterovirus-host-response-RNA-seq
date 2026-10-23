@@ -102,6 +102,21 @@ BiocManager::install(c("GEOquery", "DESeq2", "fgsea", "msigdbr"))
 └── results/
     ├── figures/
     └── *.csv
+
+## Results and Visualizations
+
+### Differential expression
+
+![Volcano plot](results/figures/volcano_EVRV_vs_Healthy.png)
+
+### Hallmark pathway enrichment
+
+![Hallmark enrichment](results/figures/fgsea_selected_hallmark.png)
+
+### Pathway comparison
+
+![Pathway enrichment heatmap](results/figures/summary_pathways_heatmap.png)
+
 ```
 
 ## Reference
