@@ -1,0 +1,10 @@
+# R session files
+.RData
+.Rhistory
+.Rproj.user/
+
+# raw data (download from GEO, see README)
+data/
+
+# large intermediate objects
+results/*.rds
